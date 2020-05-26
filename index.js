@@ -12,6 +12,7 @@ const johnLennonFacts = facts => {
   let result = [];
   while(i<facts.length){
     result[i] = `${facts[i]}!!!`;
+<<<<<<< HEAD
     i++;
   }
   return result;
@@ -27,4 +28,8 @@ const iLoveTheBeatles = num => {
   }
   while(i < limit);
   return result;
+=======
+  }
+  return result;
+>>>>>>> f97f343d91d2e53cbfa9ed12f7ca3129387d052e
 }
